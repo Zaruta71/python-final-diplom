@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46fac4e-1a5e-4952-ac56-7b2c301f7556" name="Changes" comment="Add project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netology_pd_diplom/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/netology_pd_diplom/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Docker.netology_pd_diplom/Dockerfile.executor": "Run",
     "Docker.nginx/Dockerfile.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -46,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.nginx/Dockerfile">
+  <component name="RunManager" selected="Docker.netology_pd_diplom/Dockerfile">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
       <method v="2" />
@@ -64,6 +65,14 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="netology_pd_diplom/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="netology_pd_diplom/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="nginx/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -74,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.netology_pd_diplom/Dockerfile" />
         <item itemvalue="Docker.nginx/Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
@@ -95,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709715247341</updated>
       <workItem from="1709715267090" duration="53000" />
-      <workItem from="1709715328738" duration="1190000" />
+      <workItem from="1709715328738" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="Add project">
       <option name="closed" value="true" />
@@ -105,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709715594914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add project">
+      <option name="closed" value="true" />
+      <created>1709716641315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716641315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
