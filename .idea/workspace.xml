@@ -128,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709715247341</updated>
       <workItem from="1709715267090" duration="53000" />
-      <workItem from="1709715328738" duration="3547000" />
+      <workItem from="1709715328738" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="Add project">
       <option name="closed" value="true" />
@@ -178,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709718848092</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add project 1">
+      <option name="closed" value="true" />
+      <created>1709718912840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709718912840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project" />
+    <MESSAGE value="Add project 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_final_diplom$manage.coverage" NAME="manage Coverage Results" MODIFIED="1709718312209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/netology_pd_diplom" />
