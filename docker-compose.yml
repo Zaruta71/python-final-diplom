@@ -1,0 +1,61 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: ./netology_pd_diplom
+      dockerfile: Dockerfile
+    command: sh -c "python manage.py collectstatic --noinput &&
+              python manage.py makemigrations &&
+              python manage.py migrate &&
+              gunicorn netology_pd_diplom.wsgi:application --bind 0.0.0.0:8000"
+    expose:
+      - 8000
+    volumes:
+      - static_volume:/src/staticfiles
+    env_file:
+      - ./.env.prod
+    depends_on:
+      - database
+
+  database:
+    image: postgres:14.6-alpine
+    env_file:
+      - ./.env.db
+    volumes:
+      - pg-data:/var/lib/postgresql/data/
+
+  nginx:
+    restart: always
+    build: ./nginx
+    volumes:
+      - static_volume:/src/staticfiles
+    ports:
+      - 80:80
+    depends_on:
+      - web
+
+  redis:
+    image: redis:7.0.5-alpine
+    hostname: redis
+    ports:
+      - "6379:6379"
+    depends_on:
+      - database
+
+  celery:
+    build:
+      context: ./netology_pd_diplom
+      dockerfile: Dockerfile
+    command: celery -A celery_app.celery_app worker
+    env_file:
+      - ./.env.prod
+    volumes:
+      - static_volume:/src/staticfiles
+    depends_on:
+      - web
+      - redis
+
+volumes:
+    pg-data:
+    static_volume:
