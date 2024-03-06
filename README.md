@@ -5,19 +5,15 @@
 1. Запускаем контейнер:
 
 ```shell
-docker-compose up -d --build
-```
+docker-compose up -d --build``
 
-Должно получиться:
-![started.png](reference/started.png)
+
 
 2. Проверяем, запустилась ли база данных и применились ли миграции:
 ```shell
-docker-compose exec web python manage.py migrate --noinput
-```
+docker-compose exec web python manage.py migrate --noinput```
 
-Должно получиться:
-![migrations.png](reference/migrations.png)
+
 
 3. Создаем суперпользователя
 ```shell
@@ -40,4 +36,3 @@ http://localhost/admin/
 http://localhost/openapi/
 ```
 
-[Описание документации по запросам в Swagger](https://app.swaggerhub.com/apis/ZARIPOVAMARYM/Diploma/1.0.0) 
