@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46fac4e-1a5e-4952-ac56-7b2c301f7556" name="Changes" comment="Add project" />
+    <list default="true" id="a46fac4e-1a5e-4952-ac56-7b2c301f7556" name="Changes" comment="changes in setting.py, nginx.conf, README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -136,7 +137,7 @@
       <workItem from="1709715328738" duration="3644000" />
       <workItem from="1709719752416" duration="1063000" />
       <workItem from="1709738797671" duration="51000" />
-      <workItem from="1709795136229" duration="542000" />
+      <workItem from="1709795136229" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="Add project">
       <option name="closed" value="true" />
@@ -210,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709795279241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changes in setting.py, nginx.conf, README.md">
+      <option name="closed" value="true" />
+      <created>1709795787086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709795787086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changes in setting.py, nginx.conf, README.md">
+      <option name="closed" value="true" />
+      <created>1709796033784</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796033784</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
