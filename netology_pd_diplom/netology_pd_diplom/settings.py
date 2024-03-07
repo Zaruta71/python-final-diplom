@@ -101,7 +101,7 @@ WSGI_APPLICATION = "netology_pd_diplom.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
+ATABASES = {
     "default": {
         "ENGINE": os.getenv("DB_ENGINE", default="django.db.backends.sqlite3"),
         "NAME": os.getenv("DB_NAME", default="db.sqlite3"),
